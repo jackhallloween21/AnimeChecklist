@@ -1,6 +1,6 @@
 /* specify the background image using the background-image property */
 body {
-  background-image: url('my-animated-background.gif');
+  background-image: url('ezgif-1-ab13655223.gif');
   animation: backgroundAnimation 10s linear infinite;
 }
 
