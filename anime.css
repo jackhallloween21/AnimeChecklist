@@ -1,0 +1,15 @@
+/* specify the background image using the background-image property */
+body {
+  background-image: url('my-animated-background.gif');
+  animation: backgroundAnimation 10s linear infinite;
+}
+
+/* use the animation property to animate the background image */
+@keyframes backgroundAnimation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
